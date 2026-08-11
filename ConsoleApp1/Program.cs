@@ -14,7 +14,9 @@ namespace ConsoleApp1
 
             var calculator = new Calculator();
 
-            var result = calculator.Add(10, 20);
+const int SecondOperand = 20;
+
+var result = calculator.Add(10, SecondOperand);
 
             Console.WriteLine("Result: " + result);
 
